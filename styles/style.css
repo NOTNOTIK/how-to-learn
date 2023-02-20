@@ -206,6 +206,7 @@
   font-size: 36px;
   font-weight: normal;
   align-items: center;
+  z-index: 1;
 }
 
 .kaufman {
@@ -303,6 +304,9 @@
   margin: 0;
   position: absolute;
   bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 .footer__column_info{
   display: flex;
@@ -322,6 +326,9 @@
 .footer__column-heading{
   margin-top: 0px;
   padding-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .footer__column__content_social{
   position: absolute;
@@ -335,6 +342,7 @@
  margin-left:0px;
  display: block;
  text-decoration: none;
+
 
 
 
