@@ -20,12 +20,13 @@
   align-items: center;
   /* выше установили ограничения для секции */
 }
-
+.logo {
+  width: 228px;
+  height: 32px;
+}
 .logo_place_header {
   position: absolute;
   background-image: url(../images/logo_place_header.svg);
-  width: 228px;
-  height: 32px;
   top: 30px;
   left: 64px;
 }
@@ -183,8 +184,7 @@
 
 .feynman {
   background-color: #f2f2f2;
-  min-width: none;
-  height: 890px;
+  min-height: 890px;
   position: relative;
 }
 
@@ -272,9 +272,7 @@
  background-color: #1f1f1f;
  color: white;
 }
-.logo_place_footer{
- display: block;
-}
+
 .footer__column_content_copyright {
  flex-basis: 711px;
  display: flex;
@@ -294,7 +292,6 @@ justify-content: space-between;
 
 .footer__author {
   margin-top: 0;
-  display: inline;
   margin-bottom: 18px;
   line-height: 25px;
   font-size: 18px;
@@ -321,5 +318,8 @@ justify-content: space-between;
   font-weight: normal;
   margin-left: 0;
   text-decoration: none;
+}
+.footer__social-icon {
+ padding-right: 10px;
 }
 
