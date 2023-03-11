@@ -2,6 +2,6 @@
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
-  gap: 100px;
+  column-gap: 100px;
   width: 80%;
 }
